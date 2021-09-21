@@ -1,0 +1,16 @@
+{
+    "name": "UI Font Tester",
+    "version": "1.0",
+    "description": "Choose and test fonts, everywhere, easily.",
+    "manifest_version": 2,
+    "icons": {
+        "128": "icon.png"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "browser_action": {
+        "default_icon": "icon.png"
+    },
+    "permissions": ["activeTab"]
+}
